@@ -1,0 +1,314 @@
+
+/* nav */
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+/* main title */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Risque&display=swap');
+/* text, and forms */
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Henny+Penny&family=Risque&display=swap');
+
+/* background image from: https://www.gamewallpapers.com/index.php?titelpage=Hogwarts+Legacy&page=ultrawidegame */
+
+:root {
+    --dark-red: #740001;
+    --dark-green: #1a472a;
+    --dark-blue: #0e1a40;
+    --ravenclaw-blue: #222f5b;
+    --hufflepuff-canary: #ecb939;
+    --gryff-red: #ae0001;
+    --slytherin-light-silver: #bebebe;
+    --slytherin-green: #2a623d;
+    --gryff-gold: #eeba30;
+    --light-canary: #f0c75e;
+    --dark-brown: #372e29;
+
+  }
+
+body {
+   /* background: linear-gradient(var(--slytherin-light-silver),var(--ravenclaw-blue), var(--dark-blue)); */
+    background-image: url(images/hogwarts.jpeg); 
+    background-repeat: no-repeat;
+    /* background-size: 100vw 100vw; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+    margin: 0 auto;
+    padding: 1.5%;
+    max-width: 890px;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    box-shadow:
+    inset 0 0 50px var(--dark-red),     
+    inset 20px 0 80px var(--dark-red),  
+    inset -20px 0 80px var(--gryff-red), 
+    inset 20px 0 300px var(--dark-red), 
+    inset -20px 0 300px var(--gryff-red),
+    0 0 10px var(--gryff-red),           
+    -5px 0 10px var(--gryff-red), 
+    5px 0 10px var(--dark-red);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 1%;
+    box-shadow:
+    inset 0 0 50px var(--dark-red),     
+    inset 20px 0 80px var(--dark-red),  
+    inset -20px 0 80px var(--gryff-red), 
+    inset 20px 0 300px var(--dark-red), 
+    inset -20px 0 300px var(--gryff-red),
+    0 0 10px var(--gryff-red),           
+    -5px 0 10px var(--gryff-red), 
+    5px 0 10px var(--dark-red);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    border-radius: 15px;
+    width: 30%;
+}
+
+section.summary {
+    background-color: rgba(190,190,190, 0.8);
+
+    border-radius: 15px;
+    padding: 15px;
+}
+section.summary1{
+    background-color: rgba(190,190,190, 0.8);
+    border-radius: 15px;
+}
+p {
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+nav a{
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow:
+    inset 0 0 50px var(--dark-red),     
+    inset 20px 0 80px var(--dark-red),  
+    inset -20px 0 80px var(--gryff-red), 
+    inset 20px 0 300px var(--dark-red), 
+    inset -20px 0 300px var(--gryff-red),
+    0 0 10px var(--gryff-red),           
+    -5px 0 10px var(--gryff-red), 
+    5px 0 10px var(--dark-red);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+      
+}
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+div {
+    margin: 2%;
+    padding-bottom: 3%;
+}
+
+/*  ----- Form ----- */
+form {
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 1%;
+    font-size: 1em;
+    overflow: auto;
+    }
+
+select {
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em;
+    width: fit-content;
+    padding: 1% 1% 2% 2%;    
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--slytherin-light-silver);
+    border-radius: 5px;
+  } 
+
+input {
+    font-family: "Donegal One", serif;
+    text-align: center;
+    padding: 1%;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+input.btn {
+    border-radius: 5px;
+    border: 2px solid rgba(190,190,190, .7);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    color: var(--hufflepuff-canary);
+    text-decoration: none;
+    background-image: linear-gradient(45deg, var(--dark-green), var(--slytherin-green), var(--dark-green));
+}
+
+input.btn:hover {
+    transform: scale(1.05);
+}
+
+fieldset {
+    border: 4px solid var(--gryff-gold);
+    background-color: rgba(240,199,94, .3);
+    margin-bottom: 5%;
+    padding: 2%;
+    text-align: center;
+  }
+
+label {
+    background-color: rgb(55,46,41, .8);
+    color: white;
+    display: block;
+    margin-top: 4%;
+    font-size: 1.1em;
+    width: fit-content;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 4px; 
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+legend {
+    font-family: "Donegal One", serif;
+    font-size: 1em;
+    color: var(--hufflepuff-canary);
+    border: 3px solid var(--gryff-gold);
+    background-color: rgba(240,199,94, .2);
+    margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 1.5%;
+  }
+
+th {
+    background-color: var(--dark-blue);  
+    color: white;
+}
+
+td {
+    background-color: var(--slytherin-light-silver);
+    padding: 10px;
+} 
+
+
+/*  ----- Table ----- */
+table {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: auto;
+    border: 5px solid var(--ravenclaw-blue);
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+#new {
+    border-radius: 5px;
+    border: 2px solid rgba(190,190,190, .7);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    color: var(--hufflepuff-canary);
+    text-decoration: none;
+    background-image: linear-gradient(45deg, var(--dark-green), var(--slytherin-green), var(--dark-green));
+} 
+
+
+#new:hover {
+    transform: scale(1.05);
+}
+
+#new a {
+    text-decoration: none;
+    color: var(--hufflepuff-canary);
+}
+#new a:visited {
+    text-decoration: none;
+    color: var(--hufflepuff-canary);
+}
+
+#adjust {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--hufflepuff-canary);
+    text-decoration: none;
+    background-image: linear-gradient(45deg, var(--dark-green), var(--slytherin-green), var(--dark-green));
+}
+
+#adjust:hover {
+    transform: scale(1.05);
+}
+
+#adjust:visited {
+    text-decoration: none;
+    color: var(--hufflepuff-canary);
+}
+
+#adjust1 {color: var(--hufflepuff-canary);} 
+
