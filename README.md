@@ -12,7 +12,7 @@ In order to view this project, the user must be on OSU's VPN or physically conne
 
 The MySQL database you will be using for the project will also need to be created. In the course, this was done using phpMyAdmin. 
 
-### To View:
+#### To View:
 1. 
 
 ## Technologies & Languages
