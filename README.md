@@ -17,4 +17,4 @@ This project was adapted using the template provided in the [CS340 Flask Starter
 Background image: [Game Wallpapers](https://www.gamewallpapers.com/index.php?titelpage=Hogwarts+Legacy&page=ultrawidegame).
 
 ## Notes
-This project was created in collaboration with Joel Gilger (Github: @jgiggler). 
+This project was created in collaboration with [Joel Gilger](https://github.com/jgiggler). 
