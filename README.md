@@ -10,7 +10,10 @@ Here is an overview of the project which discusses the database outline, schema,
 In order to view this project, the user must be on OSU's VPN or physically connected to the on campus internet. You can find information on connecting to the VPN [here
 ](https://oregonstate.edu/).
 
-The MySQL database you will be using for the project will also need to be created. In the course, this was done using the phpMyAdmin. 
+The MySQL database you will be using for the project will also need to be created. In the course, this was done using phpMyAdmin. 
+
+### To View:
+1. 
 
 ## Technologies & Languages
 Flask
